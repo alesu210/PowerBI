@@ -1,0 +1,2 @@
+// Añadir expresión DAX a la descripción de todas las medidas (Cambiar Model.AllMeasures por Selected.Measures para aplicar únicamente a medidas seleccionadas)
+foreach (var m in Model.AllMeasures) { m.Description = m.Expression; }
